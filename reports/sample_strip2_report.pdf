@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >> endobj
+4 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+5 0 obj << /Length 1967 >> stream
+BT /F1 8 Tf 42 756 Td 10 TL
+(URINE STRIP IMAGE ANALYSIS REPORT) Tj T*
+(Generated from data/results/sample_strip2_results.json) Tj T*
+(Clinical interpretation is not performed.) Tj T*
+() Tj T*
+(Sample 2: data/raw_images/sample_strip2.png) Tj T*
+(Timestamp: 2026-11-01T01:05:44.547416 | Pads detected: 4 | Processing: 0.0345 s) Tj T*
+(Method: HSV saturation threshold, morphological operations, and contours) Tj T*
+(  Pad 1 | Parameter: LEUKOCYTES | Colour: Greenish | RGB: 100, 180, 80) Tj T*
+(    Value: Not provided \(JSON value is null or absent\) | Status: Color extracted; parameter label follows configured strip order; clinical value not assigned | Area: 7314 px | Bounds: x=251 y=71 w=139 h=54) Tj T*
+(  Pad 2 | Parameter: NITRITE | Colour: Yellowish / brownish | RGB: 230, 190, 50) Tj T*
+(    Value: Not provided \(JSON value is null or absent\) | Status: Color extracted; parameter label follows configured strip order; clinical value not assigned | Area: 7314 px | Bounds: x=251 y=146 w=139 h=54) Tj T*
+(  Pad 3 | Parameter: UROBILINOGEN | Colour: Reddish | RGB: 220, 70, 70) Tj T*
+(    Value: Not provided \(JSON value is null or absent\) | Status: Color extracted; parameter label follows configured strip order; clinical value not assigned | Area: 7314 px | Bounds: x=251 y=221 w=139 h=54) Tj T*
+(  Pad 4 | Parameter: PROTEIN | Colour: Bluish | RGB: 70, 100, 220) Tj T*
+(    Value: Not provided \(JSON value is null or absent\) | Status: Color extracted; parameter label follows configured strip order; clinical value not assigned | Area: 7314 px | Bounds: x=251 y=296 w=139 h=54) Tj T*
+() Tj T*
+(Limitations: Results depend on lighting, camera, and calibration.) Tj T*
+(Parameter labels follow the configured top-to-bottom order; confirm this mapping for the exact strip model.) Tj T*
+(Clinical values remain unassigned until calibrated reference data is supplied.) Tj T*
+(Automated detection has not been validated on real strip photographs.) Tj T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+2329
+%%EOF

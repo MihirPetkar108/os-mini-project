@@ -16,7 +16,7 @@
 #define LINE_SIZE 256
 
 static const char *input_files[INPUT_COUNT] = {
-    "data/results/sample_strip_results.json",
+    "data/results/sample_strip1_results.json",
     "data/results/sample_strip2_results.json",
     "data/results/sample_strip3_results.json"
 };
@@ -169,7 +169,7 @@ int main(int argc, char *argv[])
     fflush(stdout);
 
     static const char *images[INPUT_COUNT] = {
-        "data/raw_images/sample_strip.png",
+        "data/raw_images/sample_strip1.png",
         "data/raw_images/sample_strip2.png",
         "data/raw_images/sample_strip3.png"
     };

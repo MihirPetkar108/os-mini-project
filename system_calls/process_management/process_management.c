@@ -106,7 +106,7 @@ static void log_job(int time, int id, const char *message)
 /* Generate one PDF per JSON result after all scheduled jobs have finished. */
 static int generate_pdf_reports(void)
 {
-    const char *generator = "experiments/exp2/file_operations";
+    const char *generator = "system_calls/file_mangement/file_operations";
     pid_t pid = fork();
     if (pid == -1) {
         perror("fork for PDF report generator");
@@ -630,10 +630,10 @@ int main(int argc, char *argv[])
      * Ensure the shared-resource directory exists before creating
      * children. The directory should normally be created by the project.
      */
-    if (access("experiments/exp2", F_OK) == -1) {
+    if (access("system_calls/file_mangement", F_OK) == -1) {
         fprintf(stderr,
-                "Error: experiments/exp2 directory does not exist. "
-                "Create it before running this experiment.\n");
+                "Error: system_calls/file_mangement directory does not exist. "
+                "Run this program from the project root.\n");
         free(jobs);
         return EXIT_FAILURE;
     }
@@ -652,7 +652,8 @@ int main(int argc, char *argv[])
     fflush(stdout);
     if (!generate_pdf_reports()) {
         fprintf(stderr,
-                "PDF report generation failed. Compile experiments/exp2/file_operations.c first.\n");
+                "PDF report generation failed. Compile "
+                "system_calls/file_mangement/file_operations.c first.\n");
         free(jobs);
         free(timeline);
         return EXIT_FAILURE;
