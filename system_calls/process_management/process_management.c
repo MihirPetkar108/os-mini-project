@@ -589,7 +589,8 @@ int main(int argc, char *argv[])
 
     printf("\n============================================================\n");
     printf(" EXPERIMENT 4: PROCESS MANAGEMENT\n");
-    printf(" PREEMPTIVE SJF + MUTUAL EXCLUSION\n");
+    printf(" EXPERIMENT 6: SJF\n");
+    printf(" EXPERIMENT 7: MUTUAL EXCLUSION\n");
     printf(" Urine Test Strip Image Analysis\n");
     printf("============================================================\n");
     printf("\nTotal images received: %d\n", n);
