@@ -1,0 +1,100 @@
+{
+    "input_image": "data/raw_images/sample_strip.png",
+    "image_dimensions": {
+        "width": 640,
+        "height": 480
+    },
+    "detection_method": "HSV saturation threshold, morphological operations, and contours",
+    "number_of_pads_detected": 4,
+    "pads": [
+        {
+            "pad_number": 1,
+            "parameter": "LEUKOCYTES",
+            "coordinates": {
+                "x": 250,
+                "y": 90,
+                "width": 141,
+                "height": 56
+            },
+            "area_pixels": 7700.0,
+            "rgb": {
+                "red": 180,
+                "green": 220,
+                "blue": 180
+            },
+            "visual_color_description": "Greenish",
+            "medical_value": null,
+            "status": "Color extracted; parameter label follows configured strip order; clinical value not assigned"
+        },
+        {
+            "pad_number": 2,
+            "parameter": "NITRITE",
+            "coordinates": {
+                "x": 250,
+                "y": 165,
+                "width": 141,
+                "height": 56
+            },
+            "area_pixels": 7700.0,
+            "rgb": {
+                "red": 220,
+                "green": 180,
+                "blue": 100
+            },
+            "visual_color_description": "Yellowish / brownish",
+            "medical_value": null,
+            "status": "Color extracted; parameter label follows configured strip order; clinical value not assigned"
+        },
+        {
+            "pad_number": 3,
+            "parameter": "UROBILINOGEN",
+            "coordinates": {
+                "x": 250,
+                "y": 240,
+                "width": 141,
+                "height": 56
+            },
+            "area_pixels": 7700.0,
+            "rgb": {
+                "red": 220,
+                "green": 120,
+                "blue": 120
+            },
+            "visual_color_description": "Reddish",
+            "medical_value": null,
+            "status": "Color extracted; parameter label follows configured strip order; clinical value not assigned"
+        },
+        {
+            "pad_number": 4,
+            "parameter": "PROTEIN",
+            "coordinates": {
+                "x": 250,
+                "y": 315,
+                "width": 141,
+                "height": 56
+            },
+            "area_pixels": 7700.0,
+            "rgb": {
+                "red": 100,
+                "green": 180,
+                "blue": 180
+            },
+            "visual_color_description": "Mixed color",
+            "medical_value": null,
+            "status": "Color extracted; parameter label follows configured strip order; clinical value not assigned"
+        }
+    ],
+    "processing_time_seconds": 0.0198,
+    "timestamp": "2026-10-31T19:03:11.637259",
+    "output_files": {
+        "annotated_image": "data/processed/sample_strip_detected.png",
+        "segmentation_mask": "data/processed/sample_strip_mask.png"
+    },
+    "limitations": [
+        "Pad detection has not been validated on real strip photographs.",
+        "Parameter labels follow the configured top-to-bottom order and must be confirmed for the exact strip model.",
+        "No clinical interpretation is performed.",
+        "Color results depend on lighting, camera, and calibration.",
+        "HSV thresholding may detect unwanted colored regions."
+    ]
+}

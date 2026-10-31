@@ -1,0 +1,10 @@
+Parent process started. PID: 3637
+
+Child process created successfully.
+Child PID: 3639
+Parent PID: 3637
+Child process executing...
+Parent process waiting for child to finish...
+
+Child process completed successfully.
+Parent process exiting. PID: 3637
